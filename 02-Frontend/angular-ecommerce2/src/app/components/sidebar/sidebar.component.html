@@ -1,0 +1,21 @@
+<aside class="menu-sidebar d-none d-lg-block">
+    <ng-sidebar-container>
+        <ng-sidebar [opened]="opened">
+            <p>Sidebar Contents</p>
+            <button (click)="toggleSidebar()">Close Sidebar</button>
+            <ul class="menus">
+                <li *ngFor="let tempProductCategory of productCategories">
+                    <a routerLink="/category/{{ tempProductCategory.id }}" routerLinkActivate="active-link">
+                        {{ tempProductCategory.categoryName }}
+                    </a>
+                </li>
+            </ul>
+        </ng-sidebar>
+        <div ng-sidebar-content>
+            <!-- Paage Contents -->
+            <button (click)="toggleSidebar()">
+                Open Sidebar
+            </button>
+        </div>
+    </ng-sidebar-container>
+</aside>
