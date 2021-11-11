@@ -70,7 +70,7 @@ export class ProductService {
     
       // need to buld URL based on keyword, page and size
       const searchUrl = `${this.baseUrl}/search/findByNameContaining?name=${theKeyword}`
-      + `&page=${thePage}&size=${thePageSize}`;
+            + `&page=${thePage}&size=${thePageSize}`;
 
       return this.httpClient.get<GetResponseProducts>(searchUrl);
                         }
