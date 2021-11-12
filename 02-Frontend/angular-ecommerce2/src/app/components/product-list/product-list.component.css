@@ -1,0 +1,15 @@
+.btn-style{
+    background:coral;
+    padding:7px 20px;
+    text-align:center;
+    display:inline-block;
+    color:#fff;
+    border-radius:2px;
+    font-size:14px;
+    margin-top:5px
+}
+.btn-style:hover{
+    background: black;
+    color:#fff;
+    transition: 0.3s ease;
+}
