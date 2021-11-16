@@ -25,7 +25,7 @@ export class CartService {
       for(let tempCartItem of this.cartItems) {
         if(tempCartItem.id === theCartItem.id) {
           existingCartItem = tempCartItem;
-          break;
+            
         }
       }
     
