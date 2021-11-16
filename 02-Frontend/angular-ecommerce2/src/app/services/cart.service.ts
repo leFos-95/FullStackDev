@@ -33,6 +33,7 @@ export class CartService {
       if(existingCartItem != undefined) {
         alreadyExistsInCart = true;
       }
+    }
 
       if(alreadyExistsInCart) {
         // increment the quantity
@@ -47,7 +48,6 @@ export class CartService {
       this.computeCartTotals();
     }
 
-  }
 
   computeCartTotals() {
     

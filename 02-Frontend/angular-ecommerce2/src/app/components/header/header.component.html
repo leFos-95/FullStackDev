@@ -27,7 +27,7 @@
           (keyup.enter)="doSearch(myInput.value)" />
         <button (click)="doSearch(myInput.value)" class="btn"><i class="fal fa-search"></i></button>
         <li class="nav-item">
-          <a href="shopping-detail.html>"><button matBadge="2"><i class="fal fa-shopping-bag"></i></button></a> 
+          <a href="shopping-detail.html>"><button matBadge="{{ totalQuantity }}"><i class="fal fa-shopping-bag"></i></button></a> 
         </li>
       </ul>
 
