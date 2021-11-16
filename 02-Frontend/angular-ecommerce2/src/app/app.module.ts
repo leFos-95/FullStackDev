@@ -16,6 +16,7 @@ import { Sidebar, SidebarModule } from 'ng-sidebar';
 import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { ProductDetailsComponent } from './components/product-details/product-details.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { CartDetailsComponent } from './components/cart-details/cart-details.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     HeaderComponent,
     HomeComponent,
     SidebarComponent,
-    ProductDetailsComponent
+    ProductDetailsComponent,
+    CartDetailsComponent
   ],
   imports: [
     BrowserModule,
