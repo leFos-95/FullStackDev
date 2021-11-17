@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { MatBadgeModule } from '@angular/material/badge';
+import { ReactiveFormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { ProductListComponent } from './components/product-list/product-list.component';
@@ -17,6 +18,7 @@ import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { ProductDetailsComponent } from './components/product-details/product-details.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CartDetailsComponent } from './components/cart-details/cart-details.component';
+import { CheckoutComponent } from './components/checkout/checkout.component';
 
 @NgModule({
   declarations: [
@@ -27,10 +29,12 @@ import { CartDetailsComponent } from './components/cart-details/cart-details.com
     HomeComponent,
     SidebarComponent,
     ProductDetailsComponent,
-    CartDetailsComponent
+    CartDetailsComponent,
+    CheckoutComponent
   ],
   imports: [
     BrowserModule,
+    ReactiveFormsModule,
     HttpClientModule,
     AppRoutingModule,
     MatBadgeModule,
