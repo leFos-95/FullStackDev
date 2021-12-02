@@ -9,10 +9,8 @@ In this project Angular will work as the client in the front-end and Spring Boot
   <ol>
     <li>
       <a href="#features-of-the-application">Features of the application</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
     </li>
+    <li><a href="#built-with">Built With</a></li>
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
