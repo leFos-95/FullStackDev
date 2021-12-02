@@ -38,6 +38,7 @@ In this project Angular will work as the client in the front-end and Spring Boot
 - [Spring-boot](https://spring.io/projects/spring-boot)
 - [Angular](https://angular.io/)
 - [MySQL](https://www.mysql.com/)
+- [IntelliJIDEA](https://www.jetbrains.com/idea/)
 
 
 <!-- GETTING STARTED -->
@@ -64,10 +65,32 @@ To get a local copy up and running follow these steps.
    git clone https://github.com/leFos-95/FullStackDev.git
 
    ```
-2. In the folder that the repo is cloned run
+2. In the folder that the repo is cloned run:
 
     ```sh
+    npm install
     npm install -g @angular/cli
+    
+    ```
+
+3. Run both SQL scripts from 01-starter-files/db-scripts
+    
+    01-create-user
+    02-refresh-database-with-100-products
+
+
+4. To run the server:
+
+    * Import project at IntelliJ
+    * Enable lombok
+    * Run the application
+
+
+5. To run the client:
+
+    Go to 02-front-end/angular-ecommerce and run:
+    ```sh
+    ng serve
     
     ```
 
