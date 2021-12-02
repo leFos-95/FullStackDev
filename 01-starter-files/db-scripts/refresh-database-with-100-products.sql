@@ -1,15 +1,15 @@
 -- -----------------------------------------------------
 -- Schema full-stack-ecommerce
 -- -----------------------------------------------------
-DROP SCHEMA IF EXISTS `full-stack-ecommerce`;
+DROP SCHEMA IF EXISTS `full-stack-ecommerce3`;
 
-CREATE SCHEMA `full-stack-ecommerce`;
-USE `full-stack-ecommerce` ;
+CREATE SCHEMA `full-stack-ecommerce3`;
+USE `full-stack-ecommerce3` ;
 
 -- -----------------------------------------------------
 -- Table `full-stack-ecommerce`.`product_category`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `full-stack-ecommerce`.`product_category` (
+CREATE TABLE IF NOT EXISTS `full-stack-ecommerce3`.`product_category` (
   `id` BIGINT(20) NOT NULL AUTO_INCREMENT,
   `category_name` VARCHAR(255) NULL DEFAULT NULL,
   PRIMARY KEY (`id`))
@@ -19,7 +19,7 @@ AUTO_INCREMENT = 1;
 -- -----------------------------------------------------
 -- Table `full-stack-ecommerce`.`product`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `full-stack-ecommerce`.`product` (
+CREATE TABLE IF NOT EXISTS `full-stack-ecommerce3`.`product` (
   `id` BIGINT(20) NOT NULL AUTO_INCREMENT,
   `sku` VARCHAR(255) DEFAULT NULL,
   `name` VARCHAR(255) DEFAULT NULL,
