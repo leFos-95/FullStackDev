@@ -38,3 +38,29 @@ In this project Angular will work as the client in the front-end and Spring Boot
 - [Spring-boot](https://spring.io/projects/spring-boot)
 - [Angular](https://angular.io/)
 - [MySQL](https://www.mysql.com/)
+
+
+<!-- GETTING STARTED -->
+
+## Getting Started
+
+To get a local copy up and running follow these steps.
+
+### Prerequisites
+
+- npm 8.1.0
+- Angular CLI: 13.0.3
+- Node: 16.13.0
+- Spring boot
+- Java 17.0.1
+- MySQL Workbench
+- MySQL Server
+
+## Installation
+
+1. First of all clone the repo:
+
+   ```sh
+   git clone https://github.com/leFos-95/FullStackDev.git
+
+   ```
