@@ -64,3 +64,24 @@ To get a local copy up and running follow these steps.
    git clone https://github.com/leFos-95/FullStackDev.git
 
    ```
+2. In the folder that the repo is cloned run
+
+    ```sh
+    npm install -g @angular/cli
+    
+    ```
+
+
+
+
+## License
+
+Distributed under the MIT License. See [LICENSE](https://spdx.org/licenses/MIT.html) for more information.
+
+<!-- CONTACT -->
+
+## Contact
+
+Lefteris Soulis - lefteris95.soulis@gmail.com
+
+Project Link: [https://github.com/leFos-95/FullStackDev](https://github.com/leFos-95/FullStackDev)
