@@ -73,8 +73,8 @@ To get a local copy up and running follow these steps.
 
 3. Run both SQL scripts from 01-starter-files/db-scripts
     
-   - 01-create-user
-   - refresh-database-with-100-products
+   * 01-create-user
+   * refresh-database-with-100-products
 
 
 4. To run the server:
