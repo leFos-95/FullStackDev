@@ -32,3 +32,9 @@ In this project Angular will work as the client in the front-end and Spring Boot
 * Add products to shopping cart(CRUD)
 * Shopping cart check out
 * User login/logout
+
+### Built With
+
+- [Spring-boot](https://spring.io/projects/spring-boot)
+- [Angular](https://angular.io/)
+- [MySQL](https://www.mysql.com/)
