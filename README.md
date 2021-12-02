@@ -18,8 +18,6 @@ In this project Angular will work as the client in the front-end and Spring Boot
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#testing">Testing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
     
@@ -91,7 +89,7 @@ To get a local copy up and running follow these steps.
     Go to 02-front-end/angular-ecommerce and run:
     ```sh
     ng serve
-    
+
     ```
 
 
