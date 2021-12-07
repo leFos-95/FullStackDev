@@ -130,7 +130,9 @@
                             <mat-form-field class="full-width">
                                 <mat-label>Expiration Month</mat-label>
                                 <mat-select formControlName="expirationMonth">
-                                    <mat-option>TODO</mat-option>
+                                    <mat-option *ngFor="let month of creditCardMonths" [value]="month">
+                                        {{ month }}
+                                    </mat-option>
                                 </mat-select>
                             </mat-form-field>
                         </div>
@@ -140,8 +142,10 @@
                         <div class="col-md-9">
                             <mat-form-field class="full-width">
                                 <mat-label>Expiration Year</mat-label>
-                                <mat-select formControlName="expirationYear">
-                                    <mat-option>TODO</mat-option>
+                                <mat-select formControlName="expirationYear" (change)="handleMonthsAndYears()">
+                                    <mat-option *ngFor="let year of creditCardYears" [value]="year">
+                                        {{ year }}
+                                    </mat-option>
                                 </mat-select>
                             </mat-form-field>
                         </div>
