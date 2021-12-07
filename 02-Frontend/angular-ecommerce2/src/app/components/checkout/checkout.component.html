@@ -142,7 +142,7 @@
                         <div class="col-md-9">
                             <mat-form-field class="full-width">
                                 <mat-label>Expiration Year</mat-label>
-                                <mat-select formControlName="expirationYear" (change)="handleMonthsAndYears()">
+                                <mat-select formControlName="expirationYear" (selectionChange)="handleMonthsAndYears()">
                                     <mat-option *ngFor="let year of creditCardYears" [value]="year">
                                         {{ year }}
                                     </mat-option>
