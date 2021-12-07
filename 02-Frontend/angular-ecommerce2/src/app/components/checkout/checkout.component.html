@@ -9,11 +9,26 @@
                     <h3>Customer</h3>
 
                     <div class="row">
-                        <div class="col-md-2"><label>First Name</label></div>
                         <div class="col-md-9">
-                            <div class="input-space">
-                                <input formControlName="firstName" type="text">
-                            </div>
+                            <mat-form-field class="full-width">
+                                <input matInput formControlName="firstName" placeholder="First Name" type="text">
+                            </mat-form-field>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-9">
+                            <mat-form-field class="full-width">
+                                <input matInput formControlName="lastName" placeholder="Last Name" type="text">
+                            </mat-form-field>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-9">
+                            <mat-form-field class="full-width">
+                                <input matInput formControlName="email" placeholder="Email" type="text">
+                            </mat-form-field>
                         </div>
                     </div>
                 </div>

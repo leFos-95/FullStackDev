@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { MatBadgeModule } from '@angular/material/badge';
 import { ReactiveFormsModule } from '@angular/forms';
+import { MatInputModule } from '@angular/material/input';
 
 import { AppComponent } from './app.component';
 import { ProductListComponent } from './components/product-list/product-list.component';
@@ -35,6 +36,7 @@ import { CheckoutComponent } from './components/checkout/checkout.component';
   imports: [
     BrowserModule,
     ReactiveFormsModule,
+    MatInputModule,
     HttpClientModule,
     AppRoutingModule,
     MatBadgeModule,
