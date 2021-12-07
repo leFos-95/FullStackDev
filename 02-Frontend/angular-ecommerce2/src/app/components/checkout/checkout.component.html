@@ -125,6 +125,37 @@
                         </div>
                     </div>
 
+                    <div class="row">
+                        <div class="col-md-9">
+                            <mat-form-field class="full-width">
+                                <mat-label>Expiration Month</mat-label>
+                                <mat-select formControlName="expirationMonth">
+                                    <mat-option>TODO</mat-option>
+                                </mat-select>
+                            </mat-form-field>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-9">
+                            <mat-form-field class="full-width">
+                                <mat-label>Expiration Year</mat-label>
+                                <mat-select formControlName="expirationYear">
+                                    <mat-option>TODO</mat-option>
+                                </mat-select>
+                            </mat-form-field>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Order Details-->
+                <div class="form-area">
+                    <h3>Review Your Order</h3>
+
+                    <p>Total Quantity: {{ totalQuantity }}</p>
+                    <p>Shipping: FREE</p>
+                    <p>Total Price: {{ totalPrice | currency: 'EUR'}}</p>
                 </div>
 
                 <!-- submit button -->
